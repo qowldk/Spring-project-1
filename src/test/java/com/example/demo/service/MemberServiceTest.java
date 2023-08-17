@@ -43,7 +43,7 @@ class MemberServiceTest {
         member1.setName("kim");
 
         Member member2 = new Member();
-        member2.setName("kim");
+        member2.setName("kim1");
         //when
         memberService.join(member1);
         assertThrows(IllegalStateException.class, () -> memberService.join(member2));
