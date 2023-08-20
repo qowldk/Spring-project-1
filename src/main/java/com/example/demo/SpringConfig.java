@@ -1,5 +1,6 @@
 package com.example.demo;
 
+import com.example.demo.AOP.TimeTraceAop;
 import com.example.demo.repository.JpaMemberRepository;
 import com.example.demo.repository.MemberRepository;
 import com.example.demo.service.MemberService;
